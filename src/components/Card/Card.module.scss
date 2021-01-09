@@ -1,0 +1,12 @@
+.container {
+  width: 200px;
+  height: 280px;
+  // background-image: url("../../images/cardBack.jpg");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: white;
+  border-radius: 15px;
+  margin: 20px;
+  box-shadow: 1px 1px 20px rgb(0, 0, 0);
+}

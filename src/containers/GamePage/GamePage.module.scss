@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Skranji&display=swap");
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(22, 22, 22);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 40px 0;
+  .title {
+    font-size: 40px;
+    color: white;
+    margin: 40px;
+    font-family: "Skranji", cursive;
+  }
+  .gameWindow {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .playerone {
+    width: 200px;
+    min-height: 200px;
+    padding: 20px;
+    background-color: rgb(187, 79, 79);
+    color: white;
+    position: fixed;
+    top: 200px;
+    left: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .playertwo {
+    width: 200px;
+    min-height: 200px;
+    padding: 20px;
+    background-color: rgb(103, 156, 235);
+    position: fixed;
+    color: white;
+    top: 200px;
+    right: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+}
